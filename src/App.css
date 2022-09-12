@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    padding-top: 25px;
+    color: white;
+}
+.content{
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    padding: 5px;
+    background-image: url('components/1.png');
+    background-repeat: no-repeat;
+    background-position: 100% 95%;
+}
+.content .api_form{
+    padding: 5px;
+    display: flex;
+}
+.content .api_form input{
+    width: 70%;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.content .api_form button{
+    width: 30%;
+    font-size: large;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.api_data{
+    width: 100%;
+    padding: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.api_data ul{
+    list-style-type: none;
+    margin: 0;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: large;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.api_data ul li i{
+    color: gainsboro;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.api_data ul li b{
+    color: rgb(225, 103, 3);
 }
